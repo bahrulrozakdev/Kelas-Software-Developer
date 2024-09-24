@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas Software Developer - Diskon Terbatas!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background: #ff4c4c;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .countdown {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 15px;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        .intro, .curriculum, .features, .offer, .cta, .social-media {
+            margin-bottom: 20px;
+        }
+
+        .curriculum, .features {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .curriculum ul, .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .curriculum ul li, .features ul li {
+            background: #e1e1e1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .offer {
+            border: 2px solid #ff4c4c;
+            border-radius: 8px;
+            padding: 20px;
+            background: #fff4f4;
+        }
+
+        .offer h2 {
+            color: #ff4c4c;
+        }
+
+        .cta {
+            text-align: center;
+        }
+
+        button {
+            background-color: #ff4c4c;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e03b3b;
+        }
+
+        .social-media a {
+            display: block;
+            color: #007bff;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .testimonial {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .testimonial img {
+            width: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            .countdown {
+                font-size: 16px;
+            }
+
+            button {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .social-media a {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 18px;
+            }
+
+            .countdown {
+                font-size: 14px;
+            }
+
+            button {
+                padding: 10px 15px;
+                font-size: 12px;
+            }
+
+            .social-media a {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="countdown">⚠️ PERIODE DISKON INI TERBATAS, BERAKHIR HARI INI SEBELUM JAM 23:59 WIB</h1>
+        </header>
+        <main>
+            <section class="intro">
+                <h2>Selamat datang di Kelas Software Developer!</h2>
+                <p>Kami berkomitmen untuk mencerdaskan kehidupan bangsa 🇮🇩. Dapatkan akses ke kurikulum standar industri dengan berbagai pilihan materi untuk menjadi developer handal.</p>
+            </section>
+            
+            <section class="curriculum">
+                <h3>🔥 Kurikulum Standar Industri Kelas Dunia!</h3>
+                <ul>
+                    <li>✅ Cyber Security</li>
+                    <li>✅ Python dari awal sampai expert</li>
+                    <li>✅ Desktop developer awal sampai expert</li>
+                    <li>✅ Data science dari awal sampai expert</li>
+                    <li>✅ Materi baru: Full Stack Developer</li>
+                    <li>🔥 Algoritma & Struktur Data (Coming Soon)</li>
+                    <li>🔥 React JS Developer (Coming soon)</li>
+                    <li>🔥 Laravel Developer (Coming Soon)</li>
+                </ul>
+            </section>
+            
+            <section class="features">
+                <h3>⭐ Fasilitas Tambahan yang Akan Kamu Dapatkan!</h3>
+                <ul>
+                    <li>✅ Akses materi seumur hidup</li>
+                    <li>✅ Grup diskusi aktif</li>
+                    <li>✅ Update materi gratis, termasuk ebook dan video</li>
+                    <li>✅ 3 Ebook Senilai Rp. 300.000</li>
+                    <li>✅ 50 Kelas Digital Lainnya</li>
+                    <li>✅ Cukup 1 kali Bayar dapat semua Materi!</li>
+                </ul>
+            </section>
+            
+            <section class="offer">
+                <p>Semua kurikulum berbentuk video tutorial yang dijelaskan secara step by step, cocok untuk pemula. Video dilengkapi studi kasus dan proyek nyata, dan semuanya dalam bahasa Indonesia.</p>
+                <h2>Hanya Rp.75.000 untuk hari ini! Harga normal besok adalah Rp.500.000.</h2>
+            </section>
+            
+            <section class="cta">
+                <button id="buyNow">Beli Sekarang</button>
+            </section>
+            
+            <section class="social-media">
+                <h3>Follow kami di media sosial</h3>
+                <a href="https://instagram.com/kelassoftwaredeveloper" target="_blank">Instagram</a>
+                <h3>Testimoni</h3>
+                <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTQxNDAzMDMzMzMwNDkw?story_media_id=3414820346053489525_65023936267&igsh=aTg1YW8ybGgwbndz" target="_blank">Lihat Semua Testimoni</a>
+            </section>
+            
+            <section class="testimonial">
+                <img src="https://via.placeholder.com/80" alt="Testimonial">
+                <p>"Materi yang sangat lengkap dan mudah dipahami. Sangat bermanfaat untuk meningkatkan skill saya!" - Ahmad Mahasiswa</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Kelas Software Developer. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const countDownDate = new Date();
+        countDownDate.setHours(23, 59, 59, 999);
+
+        const x = setInterval(function() {
+            const now = new Date().getTime();
+            
+            const distance = countDownDate - now;
+            
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            document.getElementById("countdown").innerHTML = `Waktu tersisa: ${hours} Jam ${minutes} Menit ${seconds} Detik`;
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "Diskon telah berakhir!";
+            }
+        }, 1000);
+
+        document.getElementById('buyNow').addEventListener('click', function() {
+            window.location.href = 'https://linktr.ee/kelas_developer'; 
+        });
+    </script>
+</body>
+</html>
